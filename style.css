@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 414px;
+}
+
+header {
+    background-color: #392F3C;
+    height: 4em;
+}
+
+.logo {
+    width: 3.2em;
+    background-color: #D8BC8A;
+    border-radius: 10px;
+    top: 0.4em;
+    left: 1em;
+    position: relative;
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: #392F3C;
+    padding: 0.5em 2em 0.5em ;
+    border-top: 1px solid #D8BC8A;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    flex: 1;
+    margin-right: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: #D8BC8A;
+}
+
+
+figcaption, .years {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #707070;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.portrait-caption {
+    text-align: right;
+}
+
+.dark-background {
+    color: #969696;
+}
+
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    padding: 1em 0 0.5em;
+    
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.black-line{
+    display: block;
+    width: 100%;
+    border-top: 1px solid #707070;
+}
+
+.red-line {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #F43E0E;
+}
+
+p {
+    padding: 1em 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.art {
+    display: block;
+    margin: 0 auto;
+}
+
+.origin {
+    background-color: #D8BC8A;
+    color: #392F3C;
+    padding: 0 2em;
+}
+
+.lissitzky {
+    background-color: #392F3C;
+    color: #D8BC8A;
+    padding: 0 2em 1em;
+}
+
+.lissitzky-first-p {
+    width: 50%;
+    float: left;
+}
+
+.lissitzky .portrait {
+    margin: 1em 0 0 3%;
+    padding: 1%;
+    background-color: white;
+    width: 45%;
+
+}
+
+.lissitzky-q {
+    margin-left: 24%;
+    font-size: 18px;
+}
+
+.lissitzky-ref {
+    text-align: right;
+    margin-left: 35%;
+}
+
+.rodchenko {
+    background-color: #D8BC8A;
+    color: #392F3C;
+    padding: 0 2em 1em;
+}
+
+.rodchenko-first-p {
+    width: 50%;
+    float: left;
+}
+
+
+.rodchenko .portrait {
+    margin: 1em 0 0 3%;
+    padding: 1%;
+    background-color: white;
+    width: 45%;
+
+}
+
+.rodchenko-q {
+    margin-left: 20%;
+    margin-top: 4em;
+    font-size: 18px;
+}
+
+.klutsis {
+    background-color: #392F3C;
+    color: #D8BC8A;
+    padding: 0 2em 1em;
+}
+
+.klutsis-first-p {
+    width: 50%;
+    float: left;
+    padding-bottom: 0;
+}
+
+
+.klutsis .portrait {
+    margin: 1em 0 0 3%;
+    padding: 1%;
+    background-color: white;
+    width: 45%;
+}
+
+.klutsis-second-p {
+    clear: both;
+    padding-top: 0;
+}
+
+
+.typefaces {
+    background-color: #D8BC8A;
+    color: #392F3C;
+    padding: 0 2em;
+
+}
+
+footer {
+    background-color: #392F3C;
+    color: #D8BC8A;
+    height: 5em;
+    padding-left: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkred;
+    display: block;
+    padding-top: 1em;
+}
+
+footer p {
+   padding-bottom: 0; 
+}
+
